@@ -1,6 +1,6 @@
 <template>
   <v-footer app tile absolute>
-    <v-card width="100%" class="footer-cls text-center" color="#87b1ca">
+    <v-card width="100%" class="footer-cls text-center" color="#5591B4">
       <v-row class="d-flex justify-space-around">
         <v-col cols="5" class="d-flex align-self-center justify-center">
           <v-icon color="white">mdi-phone</v-icon>
@@ -8,7 +8,7 @@
         </v-col>
         <v-divider vertical></v-divider>
         <v-col cols="5" class="d-flex align-self-center justify-center">
-          <v-btn text class="white--text">
+          <v-btn text class="white--text text-lowercase">
             <v-icon class="mr-2">mdi-email</v-icon>
             info@mlmenfermeria.com.ar
           </v-btn>

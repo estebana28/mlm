@@ -6,10 +6,12 @@
 
 <script>
   export default {
-    name: '',
+    name: 'Capacitaciones',
     components: {},
     props: {},
-    data() {},
+    data() {
+      return {}
+    },
     methods: {},
     computed: {},
     watch: {},

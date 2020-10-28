@@ -10,7 +10,9 @@
           v-for="item in menu"
           :key="item.title"
           :to="item.link"
+          class="text-capitalize"
           text
+          ripple
           color="#5591B4"
           >{{ item.title }}</v-btn
         >
@@ -84,6 +86,6 @@
 <style lang="scss" scoped>
   .appbar-btn,
   .phone-num {
-    color: #87b1ca;
+    color: #5591b4;
   }
 </style>

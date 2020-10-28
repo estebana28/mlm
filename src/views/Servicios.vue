@@ -9,7 +9,9 @@
     name: 'Servicios',
     components: {},
     props: {},
-    data() {},
+    data() {
+      return {}
+    },
     methods: {},
     computed: {},
     watch: {},

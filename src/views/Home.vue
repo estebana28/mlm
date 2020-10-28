@@ -16,7 +16,7 @@
 
 <script>
   export default {
-    name: '',
+    name: 'Home',
     components: {},
     props: {},
     data() {

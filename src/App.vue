@@ -26,7 +26,9 @@
       Footer,
     },
     props: {},
-    data() {},
+    data() {
+      return {}
+    },
     methods: {},
     computed: {},
     watch: {},

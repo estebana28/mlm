@@ -9,7 +9,9 @@
     name: '',
     components: {},
     props: {},
-    data() {},
+    data() {
+      return {}
+    },
     methods: {},
     computed: {},
     watch: {},

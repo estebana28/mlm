@@ -1,6 +1,6 @@
 <template>
   <v-app-bar app elevate-on-scroll>
-    <v-toolbar class="d-flex justify-center">
+    <v-toolbar class="d-flex justify-center" elevation="0">
       <!-- <div class="align-self-center hidden-md-and-down">
         <v-img width="225px" src="../assets/pictures/logo.png"></v-img>
       </div> -->

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Capacitaciones</h1>
+    <h1 class="text-h1 text-center mt-16">Proximamente...</h1>
   </div>
 </template>
 

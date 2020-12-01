@@ -2,24 +2,24 @@
   <div>
     <v-container>
       <section>
-        <h1 class="text-center">Servicios</h1>
+        <h1 class="text-center text-h1 my-8">Servicios</h1>
         <v-row>
-          <v-col class="col-4 offset-1">
+          <v-col class="col-3 offset-2">
             <div class="service-img text-center"></div>
           </v-col>
           <v-col class="offset-1 col-4">
             <ul v-for="service in services" :key="service.title">
-              <li>{{ service.title }}</li>
+              <li class="mb-1">{{ service.title }}</li>
             </ul>
           </v-col>
         </v-row>
       </section>
       <section class="equip-container d-flex flex-column">
-        <h1 class="text-center">Equipamiento</h1>
+        <h1 class="text-center text-h1 my-8">Equipamiento</h1>
         <v-row>
-          <v-col class="col-4 offset-1">
+          <v-col class="col-3 offset-2">
             <ul v-for="equip in equipment" :key="equip.title">
-              <li>{{ equip.title }}</li>
+              <li class="mb-1">{{ equip.title }}</li>
             </ul>
           </v-col>
           <v-col class="col-4 offset-1">
@@ -98,5 +98,10 @@
     background-size: contain;
     width: 100%;
     height: 100%;
+  }
+
+  h1,
+  li {
+    color: #48466d;
   }
 </style>

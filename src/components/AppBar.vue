@@ -1,6 +1,6 @@
 <template>
-  <v-app-bar app elevate-on-scroll>
-    <v-toolbar class="d-flex justify-center" elevation="0">
+  <v-app-bar app elevate-on-scroll height="75px">
+    <v-toolbar class="d-flex justify-center" elevation="0" height="75px">
       <!-- <div class="align-self-center hidden-md-and-down">
         <v-img width="225px" src="../assets/pictures/logo.png"></v-img>
       </div> -->
@@ -10,10 +10,10 @@
           v-for="item in menu"
           :key="item.title"
           :to="item.link"
-          class="text-capitalize"
+          class="text-capitalize text-h6"
           text
           ripple
-          color="#5591B4"
+          color="#48466d"
           >{{ item.title }}</v-btn
         >
       </v-toolbar-items>
@@ -45,15 +45,15 @@
           </v-list-item>
         </v-list>
       </v-menu>
-      <div class="ml-16  hidden-md-and-down d-flex">
+      <div class="ml-16  hidden-md-and-down d-flex align-items-center">
         <!-- <v-img
           width="25px"
           height="25px"
           class="mt-1 mr-2"
           src="../assets/pictures/tel.png"
         ></v-img> -->
-        <v-icon class="mt-3 mr-3" color="#5591B4">mdi-phone</v-icon>
-        <p class="text-h5 mt-7 font-weight-black phone-num">0800-058-2050</p>
+        <v-icon class="mr-3" color="#48466d">mdi-phone</v-icon>
+        <p class="text-h4 mt-3 font-weight-black phone-num">0800-058-2050</p>
       </div>
     </v-toolbar>
   </v-app-bar>
@@ -86,6 +86,6 @@
 <style lang="scss" scoped>
   .appbar-btn,
   .phone-num {
-    color: #5591b4;
+    color: #46cdcf;
   }
 </style>

@@ -1,41 +1,45 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
-import Vision from "../views/Vision.vue";
-import Servicios from "../views/Servicios.vue";
-import Capacitaciones from "../views/Capacitaciones.vue";
-import Contacto from "../views/Contacto.vue";
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Home from '../views/Home.vue'
+import Vision from '../views/Vision.vue'
+import Mision from '../views/Mision.vue'
+import Servicios from '../views/Servicios.vue'
+import Capacitaciones from '../views/Capacitaciones.vue'
+import Contacto from '../views/Contacto.vue'
 
-
-
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const routes = [
   {
-    path: "/",
-    name: "Home",
-    component: Home
+    path: '/',
+    name: 'Home',
+    component: Home,
   },
   {
-    path: "/vision",
-    name: "Vision",
-    component: Vision
+    path: '/vision',
+    name: 'Vision',
+    component: Vision,
   },
   {
-    path: "/servicios",
-    name: "Servicios",
-    component: Servicios
+    path: '/mision',
+    name: 'Mision',
+    component: Mision,
   },
   {
-    path: "/capacitaciones",
-    name: "Capacitaciones",
-    component: Capacitaciones
+    path: '/servicios',
+    name: 'Servicios',
+    component: Servicios,
   },
   {
-    path: "/contacto",
-    name: "Contacto",
-    component: Contacto
-  }
+    path: '/capacitaciones',
+    name: 'Capacitaciones',
+    component: Capacitaciones,
+  },
+  {
+    path: '/contacto',
+    name: 'Contacto',
+    component: Contacto,
+  },
   // {
   //   path: "/about",
   //   name: "About",
@@ -45,10 +49,10 @@ const routes = [
   //   component: () =>
   //     import(/* webpackChunkName: "about" */ "../views/About.vue")
   // }
-];
+]
 
 const router = new VueRouter({
-  routes
-});
+  routes,
+})
 
-export default router;
+export default router

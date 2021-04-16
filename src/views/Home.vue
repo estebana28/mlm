@@ -1,16 +1,14 @@
 <template>
-  <div>
+  <div class="pb-16">
     <v-img class="img-home" src="../assets/pictures/couple.jpg"></v-img>
     <v-container class="ma-0">
-      <h1 class="text-center text-h1 my-16">Welcome</h1>
-      <p class="text-center text-h4 mt-5">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur iure
-        ad reprehenderit eveniet quam numquam debitis omnis vero eligendi
-        assumenda quis corrupti laborum ipsa animi sit, repellat consectetur
-        veniam repudiandae totam perspiciatis dolores impedit, ea atque? Nam
-        quam et laborum enim sed repudiandae earum! Perspiciatis quisquam
-        cupiditate aperiam dolorum dicta, voluptatem possimus ullam harum illum
-        nisi maxime quaerat repellendus cum.
+      <h1 class="text-center text-h2 text-md-h1 my-16">¿Quienes Somos?</h1>
+      <p class="text-center text-h4 mt-5 mb-10">
+        <span class="font-weight-black">MLM ENFERMERIA DOMICILIARIA</span> es
+        una empresa joven que busca mejorar la calidad de vida de todos los
+        pacientes que requieran de nuestros servicios, empleando un plan de
+        cuidados de enfermería, basado en la empatía, el respeto y la privacidad
+        que todos y cada uno de nuestros pacientes se merecen.
       </p>
     </v-container>
   </div>

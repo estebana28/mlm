@@ -46,14 +46,8 @@
         </v-list>
       </v-menu>
       <div class="ml-16  hidden-md-and-down d-flex align-items-center">
-        <!-- <v-img
-          width="25px"
-          height="25px"
-          class="mt-1 mr-2"
-          src="../assets/pictures/tel.png"
-        ></v-img> -->
         <v-icon class="mr-3" color="#48466d">mdi-phone</v-icon>
-        <p class="text-h4 mt-3 font-weight-black phone-num">0800-058-2050</p>
+        <p class="text-h4 mt-3 font-weight-black phone-num">0000 - 0000</p>
       </div>
     </v-toolbar>
   </v-app-bar>
@@ -70,6 +64,7 @@
         menu: [
           { link: '/', title: 'Inicio' },
           { link: '/vision', title: 'Vision' },
+          { link: '/mision', title: 'Mision' },
           { link: '/servicios', title: 'Servicios' },
           { link: '/capacitaciones', title: 'Capacitaciones' },
           { link: '/contacto', title: 'Contacto' },

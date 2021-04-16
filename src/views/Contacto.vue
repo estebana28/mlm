@@ -1,8 +1,10 @@
 <template>
   <div>
-    <h1 class="text-center text-h1 mt-10">Contacto</h1>
+    <h1 class="text-center text-h2 text-md-h1 mt-10">Contacto</h1>
     <v-row class="mt-10">
-      <v-col cols="6" class="d-flex justify-center mt-5">
+      <v-col
+        class="d-flex flex-column justify-center align-center mt-5 col-12 col-md-6"
+      >
         <v-form>
           <v-text-field
             autofocus
@@ -42,7 +44,7 @@
           ></v-textarea>
         </v-form>
       </v-col>
-      <v-col cols="6" class="mt-5">
+      <v-col class="mt-5 col-12 col-md-6 pb-16">
         <div class="d-flex flex-column">
           <h2 class="text-h4 mb-5">Nos encantaría conocerte</h2>
           <p class="text-subtitle-1">Nos encontramos en:</p>
@@ -79,7 +81,7 @@
 
 <style lang="scss" scoped>
   .input-field {
-    min-width: 400px;
+    min-width: 330px;
   }
 
   h1,
